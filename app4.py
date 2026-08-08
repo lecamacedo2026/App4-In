@@ -1,10 +1,6 @@
 import os
 import streamlit as st
 from groq import Groq
-from dotenv import load_dotenv
-
-load_dotenv()
-
 
 # Configuração da página Streamlit
 st.set_page_config(page_title="Assistente IA", page_icon="✈️", layout="centered")
